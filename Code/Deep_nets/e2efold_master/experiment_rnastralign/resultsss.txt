@@ -1,0 +1,27 @@
+#####Stage 1#####
+Here is the configuration of this run: 
+Munch({'exp_name': 'performance on short sequences', 'gpu': '0', 'u_net_d': 10, 'BATCH_SIZE': 5, 'batch_size_stage_1': 10, 'batch_size_stage_2': 5, 'OUT_STEP': 50, 'LOAD_MODEL': True, 'pp_steps': 10, 'pp_loss': 'f1', 'pp_model': 'mixed', 'rho_per_position': 'matrix', 'data_type': 'rnastralign_all', 'model_type': 'att_simple_fix', 'epoches_first': 15, 'epoches_second': 5, 'epoches_third': 5, 'evaluate_epi': 1, 'evaluate_epi_stage_1': 5, 'step_gamma': 1, 'k': 1, 'test': Munch({'f1': True, 'accuracy': False, 'energy': False})})
+cpu
+Max seq length  600
+Stage 1, epoch: 0,step: 0, loss: 0.7917300462722778
+Stage 1, epoch: 0,step: 50, loss: 0.7513322830200195
+Stage 1, epoch: 1,step: 100, loss: 0.7475329041481018
+Stage 1, epoch: 2,step: 150, loss: 0.7420662641525269
+Stage 1, epoch: 2,step: 200, loss: 0.700212299823761
+Stage 1, epoch: 3,step: 250, loss: 0.6604712009429932
+Stage 1, epoch: 4,step: 300, loss: 0.6883955597877502
+Stage 1, epoch: 5,step: 350, loss: 0.6822662949562073
+Stage 1, epoch: 5,step: 400, loss: 0.6751289367675781
+Stage 1, epoch: 6,step: 450, loss: 0.6506434082984924
+Stage 1, epoch: 7,step: 500, loss: 0.669222354888916
+Stage 1, epoch: 7,step: 550, loss: 0.6703932881355286
+Stage 1, epoch: 8,step: 600, loss: 0.6198243498802185
+Stage 1, epoch: 9,step: 650, loss: 0.662288248538971
+Stage 1, epoch: 10,step: 700, loss: 0.6271246671676636
+Stage 1, epoch: 10,step: 750, loss: 0.6385438442230225
+Stage 1, epoch: 11,step: 800, loss: 0.5979913473129272
+Stage 1, epoch: 12,step: 850, loss: 0.6166621446609497
+Stage 1, epoch: 13,step: 900, loss: 0.6516904830932617
+Stage 1, epoch: 13,step: 950, loss: 0.6319068670272827
+Stage 1, epoch: 14,step: 1000, loss: 0.6446107625961304
+Elapsed time:  7430.010625600815
